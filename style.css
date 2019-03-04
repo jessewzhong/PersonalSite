@@ -2,13 +2,13 @@ body {
     background-color: white;
     margin: 0;
     font-size: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 /* entire top thing */
 .top {
     z-index: 2;
-    background-color: black;
+    background-color: rgb(39, 37, 37);
     position: sticky;
     top: 0;
     -khtml-user-select: none;
@@ -20,8 +20,7 @@ body {
 
 /* for mathcycle text*/
 .header {
-    display: inline-block;
-    padding: 0.5em 20vw;
+    padding: 0.5rem 20vw;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -30,7 +29,7 @@ body {
 }
 
 .headertitlea {
-    font-size: 3em;
+    font-size: 3rem;
     color: white;
     font-weight: bold;
     transition: 0.5s;
@@ -38,7 +37,7 @@ body {
 
 .headertitleb {
     color: red;
-    font-size: 3em;
+    font-size: 3rem;
     transition: 0.5s;
 }
 
@@ -55,33 +54,18 @@ a.title {
     display: block;
 }
 
-/* sets navbar stuff*/
-ul {
-    position: relative; 
-    font-size: 1.5em;
-    list-style-type: none;
-    margin: 0;
-    padding: 0 20vw;
-    overflow: hidden;
-    background-color: #333;
-}
-  
-li {
-    float: left;
-}
-
 /* links in navbar*/
-li a {
-    display: block;
+.header a.nav {
+    font-size: 1.5rem;
     color: white;
     text-align: center;
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
     text-decoration: none;
     transition: 1s;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.header a.nav:hover {
     background-color: rgb(228, 68, 68);
 }
 
