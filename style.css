@@ -75,8 +75,8 @@ a.title {
     right: 0;
     transform: scaleX(0);
     background: #fff;
-    transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
 }
 
 a.git {
@@ -180,36 +180,42 @@ hr {
 
 .parallax {
     background-attachment: fixed;
-    background-position: 0% 20%;
+    background-position: 0% 0%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('dunk.JPG');
+    background-image: url('ski.JPG');
 }
 
 .a {
-    background-image: url('grad.JPG');
+    background-image: url('dunk.JPG');
+    background-position: 0% 20%;
 }
 
 
 .b {
     background-image: url('amsp.JPG');
+    background-position: 0% 70%;
 }
 
 .c {
     background-image: url('senior.JPG');
+    background-position: 0% -10%;
 }
 
 .d {
     background-image: url('shirts.jpg');
+    background-position: 0% 50%;
 }
 
 
 .e {
     background-image: url('first.JPG');
+    background-position: 0% 40%;
 }
 
 
 .f {
-    background-image: url('ski.JPG');
+    background-image: url('grad.JPG');
+    background-position: 0% 20%;
 }
 
