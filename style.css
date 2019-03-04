@@ -20,7 +20,7 @@ body {
 
 /* for mathcycle text*/
 .header {
-    padding: 0.5rem 20vw;
+    padding: 0.5rem 15vw;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -31,7 +31,6 @@ body {
 .headertitlea {
     font-size: 3rem;
     color: white;
-    font-weight: bold;
     transition: 0.5s;
 }
 
@@ -54,6 +53,8 @@ a.title {
     display: block;
 }
 
+
+
 /* links in navbar*/
 .header a.nav {
     font-size: 1.5rem;
@@ -62,6 +63,13 @@ a.title {
     padding: 0 1rem;
     text-decoration: none;
     transition: 1s;
+}
+
+a.git {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: red;
+    font-weight: bold
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -95,7 +103,7 @@ a.title {
 }
 
 .body {
-    padding: 10vh 20vw;
+    padding: 10vh 15vw;
     font-size: 100%;
     height: 80vh;
 }
