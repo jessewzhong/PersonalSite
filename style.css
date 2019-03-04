@@ -143,8 +143,14 @@ img.full {
 
 hr {
     border: solid;
-    border-width: 0.5px;
+    border-width: 1px;
     margin: 0;
     margin-bottom: 0.5rem;
     border-color: black;
+}
+
+.tri {
+    width: 33.33%;
+    padding: 0 1em;
+    border-right: 0.5px solid white;
 }
