@@ -123,9 +123,22 @@ p.regular {
     padding-bottom: 1em;
 }
 
+p.small {
+    font-size: 1rem;
+    margin: 0 0;
+    padding-bottom: 1em;
+}
+
 img {
     width: 30%;
     object-fit: contain;
+}
+
+img.full {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    padding: 1em 0;
 }
 
 hr {
