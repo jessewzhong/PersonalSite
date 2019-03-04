@@ -74,10 +74,30 @@ a.title {
     background-color: #898585;
 }
 
+.sectionb {
+    background-color: black;
+    height: 100vh;
+}
+
+.sectionw {
+    background-color: white;
+    height: 100vh;
+}
+
+.vcenter {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.white {
+    color: white;
+}
+
 .body {
-    min-height: 80vh;
     padding: 10vh 20vw;
     font-size: 100%;
+    height: 80vh;
 }
 
 .extralarge {
@@ -87,17 +107,31 @@ a.title {
 }
 
 .large {
-    font-size: 3em;
+    font-size: 3rem;
     padding-bottom: 1em;
 }
 
 .medium {
-    font-size: 2em;
-    padding-top: 1em;
+    font-size: 2rem;
+    padding-bottom: 1em;
+    margin: 0 0;    
 }
 
 p.regular {
-    font-size: 1em;
+    font-size: 1.5rem;
     margin: 0 0;
     padding-bottom: 1em;
+}
+
+img {
+    width: 30%;
+    object-fit: contain;
+}
+
+hr {
+    border: solid;
+    border-width: 0.5px;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    border-color: black;
 }
