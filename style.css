@@ -125,7 +125,8 @@ a.git {
 .extralarge {
     font-size: 5em;
     padding-bottom: 1em;
-    color: red;
+    color: white;
+    text-shadow: 0 0 5px black;
 }
 
 .large {
@@ -175,4 +176,24 @@ hr {
     width: 33.33%;
     padding: 0 1em;
     border-right: 0.5px solid white;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: 0% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('dunk.JPG');
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+.left {
+transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
 }
