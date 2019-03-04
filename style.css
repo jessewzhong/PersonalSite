@@ -1,0 +1,119 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-size: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* entire top thing */
+.top {
+    z-index: 2;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* for mathcycle text*/
+.header {
+    display: inline-block;
+    padding: 0.5em 20vw;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.headertitlea {
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.headertitleb {
+    color: red;
+    font-size: 3em;
+    transition: 0.5s;
+}
+
+a.title:hover .headertitlea {
+    color: red;
+}
+
+a.title:hover .headertitleb {
+    color: white;
+}
+
+a.title {
+    text-decoration: none;
+    display: block;
+}
+
+/* sets navbar stuff*/
+ul {
+    position: relative; 
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20vw;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+
+/* links in navbar*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 1s;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(228, 68, 68);
+}
+
+/* for active page */
+.active {
+    background-color: #898585;
+}
+
+.body {
+    min-height: 80vh;
+    padding: 10vh 20vw;
+    font-size: 100%;
+}
+
+.extralarge {
+    font-size: 5em;
+    padding-bottom: 1em;
+    color: red;
+}
+
+.large {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.medium {
+    font-size: 2em;
+    padding-top: 1em;
+}
+
+p.regular {
+    font-size: 1em;
+    margin: 0 0;
+    padding-bottom: 1em;
+}
