@@ -229,3 +229,23 @@ a.resume {
     border-left: 0.5px solid white;
     color: red;
 }
+
+.memR {
+    border-right: 0.5px solid white;
+    padding-right: 1rem;
+    padding-bottom: 0; 
+    position: absolute; 
+    right: 15vw; 
+    bottom: 15vh;
+    text-align: right;
+}
+
+.memL {
+    border-left: 0.5px solid white;
+    padding-left: 1rem;
+    padding-bottom: 0; 
+    position: absolute; 
+    left: 15vw; 
+    bottom: 15vh;
+    text-align: left;
+}
