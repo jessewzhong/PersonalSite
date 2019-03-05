@@ -238,6 +238,7 @@ a.resume {
     right: 15vw; 
     bottom: 15vh;
     text-align: right;
+    text-shadow: 0 0 10px black;
 }
 
 .memL {
@@ -248,6 +249,7 @@ a.resume {
     left: 15vw; 
     bottom: 15vh;
     text-align: left;
+    text-shadow: 0 0 10px black;
 }
 
 img.arrow {
