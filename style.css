@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-size: 100%;
     font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth !important;
 }
 
 /* entire top thing */
@@ -248,4 +249,15 @@ a.resume {
     left: 15vw; 
     bottom: 15vh;
     text-align: left;
+}
+
+img.arrow {
+    width: 5rem; 
+    height: 5rem; 
+    object-fit: contain; 
+    position: absolute; 
+    bottom: 10vh; 
+    left: 50%; 
+    transform: translateX(-50%);
+    content: url('down.png');
 }

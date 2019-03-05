@@ -19,24 +19,25 @@
                 </div>  
             </div>      
         </div>
-        <div class="sectionb parallax f">
+        <div class="sectionb parallax f" id="00">
             <div class="body animated slow fadeIn" style="position: relative;">
                 <div class="white large memR">
                     Graduation<br>
                     May 25, 2018
-                    <div onClick="document.getElementById('hi').scrollIntoView({behavior: 'smooth'});">hi</div>
                 </div>
+                <img class="arrow" onClick="document.getElementById('1').scrollIntoView({behavior: 'smooth'});">
             </div>
         </div>
-        <div class="sectionb parallax b" id="hi">
+        <div class="sectionb parallax b" id="1">
             <div class="body animated slow fadeIn" style="position: relative;">
                 <div class="white large memL">
-                    Graduation<br>
-                    May 25, 2018
+                    Awesome Math<br>
+                    Summer 2018
                 </div>
+                <img class="arrow" onClick="document.getElementById('2').scrollIntoView({behavior: 'smooth'});">
             </div>
         </div>
-        <div class="sectionb parallax c">
+        <div class="sectionb parallax c" id="2">
             <div class="body animated slow fadeIn" style="position: relative;">
                 <div class="extralarge" style="text-align: center"><b>Welcome!</b></div>
                 <div class="large white" style="text-align: center; text-shadow: 0 0 10px black;">&larr;(that's me)</div>
@@ -61,4 +62,10 @@
             </div>
         </div>
     </body>
+    <script>
+        var elem = document.getElementsByClassName("top");
+        var height = elem[0].offsetHeight;
+        var change1 = document.getElementById("00");
+        change1.style.height = "calc(100vh - " + height + "px)";
+    </script>
 </html>
