@@ -3,7 +3,6 @@ body {
     margin: 0;
     font-size: 100%;
     font-family: 'Nunito', sans-serif;
-    scroll-behavior: smooth !important;
 }
 
 /* entire top thing */
@@ -256,8 +255,9 @@ img.arrow {
     height: 5rem; 
     object-fit: contain; 
     position: absolute; 
-    bottom: 10vh; 
+    bottom: 5vh; 
     left: 50%; 
     transform: translateX(-50%);
     content: url('down.png');
+    cursor: pointer;
 }
