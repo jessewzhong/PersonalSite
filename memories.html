@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
         <link rel="stylesheet" href="./node_modules/animate.css/animate.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body> 
         <div class="top">
@@ -25,7 +26,7 @@
                     Graduation<br>
                     May 25, 2018
                 </div>
-                <img class="arrow" onClick="document.getElementById('1').scrollIntoView({behavior: 'smooth'});">
+                <img class="arrow" id="11">
             </div>
         </div>
         <div class="sectionb parallax b" id="1">
@@ -34,7 +35,7 @@
                     Awesome Math<br>
                     Summer 2018
                 </div>
-                <img class="arrow" onClick="document.getElementById('2').scrollIntoView({behavior: 'smooth'});">
+                <img class="arrow" id="12">
             </div>
         </div>
         <div class="sectionb parallax d" id="2">
@@ -43,7 +44,7 @@
                     Last Day of Classes<br>
                     May 17, 2018
                 </div>
-                <img class="arrow" onClick="document.getElementById('3').scrollIntoView({behavior: 'smooth'});">
+                <img class="arrow" id="13">
             </div>
         </div>
         <div class="sectionb parallax c" id="3">
@@ -52,7 +53,7 @@
                     Basketball Senior Night<br>
                     February 9, 2018
                 </div>
-                <img class="arrow" onClick="document.getElementById('4').scrollIntoView({behavior: 'smooth'});">
+                <img class="arrow" id="14">
             </div>
         </div>
         <div class="sectionb parallax e" id="4">
@@ -61,7 +62,7 @@
                     SM-ESD Game<br>
                     January 12, 2018
                 </div>
-                <img class="arrow" onClick="document.getElementById('5').scrollIntoView({behavior: 'smooth'});">
+                <img class="arrow" id="15">
             </div>
         </div>
         <div class="sectionb parallax" id="5">
@@ -81,4 +82,5 @@
         var change2 = document.getElementById("01");
         change2.style.height = "calc(80vh - " + height + "px)";
     </script>
+    <script src="scroll.js"></script>
 </html>
