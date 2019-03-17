@@ -262,4 +262,9 @@ img.arrow {
     transform: translateX(-50%);
     content: url('down.png');
     cursor: pointer;
+}  
+
+img.up {
+    top: 5vh;
+    transform: translateX(-50%) scaleY(-1);
 }

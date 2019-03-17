@@ -20,7 +20,7 @@
                 </div>  
             </div>      
         </div>
-        <div class="sectionb parallax f" id="00">
+        <div class="sectionb parallax f" id="0">
             <div class="body animated slow fadeIn" id="01" style="position: relative;">
                 <div class="white large memR">
                     Graduation<br>
@@ -31,6 +31,7 @@
         </div>
         <div class="sectionb parallax b" id="1">
             <div class="body animated slow fadeIn" style="position: relative;">
+                <img class="arrow up" id="20">
                 <div class="white large memL">
                     Awesome Math<br>
                     Summer 2018
@@ -40,6 +41,7 @@
         </div>
         <div class="sectionb parallax d" id="2">
             <div class="body animated slow fadeIn" style="position: relative;">
+                <img class="arrow up" id="21">
                 <div class="white large memR">
                     Last Day of Classes<br>
                     May 17, 2018
@@ -49,6 +51,7 @@
         </div>
         <div class="sectionb parallax c" id="3">
             <div class="body animated slow fadeIn" style="position: relative;">
+                <img class="arrow up" id="22">
                 <div class="white large memL">
                     Basketball Senior Night<br>
                     February 9, 2018
@@ -58,6 +61,7 @@
         </div>
         <div class="sectionb parallax e" id="4">
             <div class="body animated slow fadeIn" style="position: relative;">
+                <img class="arrow up" id="23">
                 <div class="white large memR">
                     SM-ESD Game<br>
                     January 12, 2018
@@ -67,6 +71,7 @@
         </div>
         <div class="sectionb parallax" id="5">
             <div class="body animated slow fadeIn" style="position: relative;">
+                <img class="arrow up" id="24">
                 <div class="white large memL">
                     Whistler<br>
                     March 2018
@@ -77,10 +82,18 @@
     <script>
         var elem = document.getElementsByClassName("top");
         var height = elem[0].offsetHeight;
-        var change1 = document.getElementById("00");
+        var change1 = document.getElementById("0");
         change1.style.height = "calc(100vh - " + height + "px)";
         var change2 = document.getElementById("01");
         change2.style.height = "calc(80vh - " + height + "px)";
+    </script>
+    <script>
+        var elem = document.getElementsByClassName("top");
+        var height = elem[0].offsetHeight;
+        var change = document.getElementsByClassName("up");
+        for (let i = 0; i < change.length; i++) {
+            change[i].style.top = "calc(5vh + " + height + "px)";
+        }
     </script>
     <script src="scroll.js"></script>
 </html>
