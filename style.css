@@ -183,39 +183,39 @@ hr {
     background-position: 0% 0%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('ski.JPG');
+    background-image: url('./pictures/ski.JPG');
 }
 
 .a {
-    background-image: url('dunk.JPG');
+    background-image: url('./pictures/dunk.JPG');
     background-position: 0% 20%;
 }
 
 
 .b {
-    background-image: url('amsp.JPG');
+    background-image: url('./pictures/amsp.JPG');
     background-position: 0% 70%;
 }
 
 .c {
-    background-image: url('senior.JPG');
+    background-image: url('./pictures/senior.JPG');
     background-position: 0% -10%;
 }
 
 .d {
-    background-image: url('shirts.jpg');
+    background-image: url('./pictures/shirts.jpg');
     background-position: 0% 50%;
 }
 
 
 .e {
-    background-image: url('first.JPG');
+    background-image: url('./pictures/first.JPG');
     background-position: 0% 40%;
 }
 
 
 .f {
-    background-image: url('grad.JPG');
+    background-image: url('./pictures/grad.JPG');
     background-position: 0% 20%;
 }
 
@@ -260,7 +260,7 @@ img.arrow {
     bottom: 5vh; 
     left: 50%; 
     transform: translateX(-50%);
-    content: url('down.png');
+    content: url('./pictures/down.png');
     cursor: pointer;
 }  
 
