@@ -97,4 +97,15 @@
         }
     </script> -->
     <script src="scroll.js"></script>
+    <script>
+            if ($(document).scrollTop() > 0) {
+                ;
+            }
+            else {
+                $('html, body').animate({
+                    scrollTop: $("#0").offset().top
+                }, 0); 
+            }
+        
+    </script>
 </html>
