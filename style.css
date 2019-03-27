@@ -98,12 +98,12 @@ a.git {
 
 .sectionb {
     background-color: black;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .sectionw {
     background-color: white;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .vcenter {
@@ -119,7 +119,7 @@ a.git {
 .body {
     padding: 10vh 15vw;
     font-size: 100%;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .extralarge {
@@ -175,7 +175,12 @@ hr {
 .tri {
     width: 33.33%;
     padding: 0 1em;
+}
+
+.trii {
     border-right: 0.5px solid white;
+    border-left: 0.5px solid white;
+
 }
 
 .parallax {
