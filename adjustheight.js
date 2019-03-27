@@ -1,12 +1,3 @@
-function overall() {
-    var elem = document.getElementsByClassName("top");
-    var height = elem[0].offsetHeight;
-    var change1 = document.getElementById("0");
-    change1.style.height = "calc(100vh - " + height + "px)";
-    var change2 = document.getElementById("01");
-    change2.style.height = "calc(80vh - " + height + "px)";
-}
-
 function seektop() {
     var elem = document.getElementsByClassName("top");
     var height = elem[0].offsetHeight;
@@ -16,5 +7,11 @@ function seektop() {
     }
 }
 
-overall();
+// var elem = document.getElementsByClassName("top");
+// var height = elem[0].offsetHeight;
+// var change1 = document.getElementById("00");
+// change1.style.minHeight = "calc(100vh - " + height + "px)";
+// var change2 = document.getElementById("01");
+// change2.style.minHeight = "calc(80vh - " + height + "px)";
+
 seektop();
